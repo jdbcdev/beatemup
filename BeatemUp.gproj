@@ -1,0 +1,55 @@
+<project>
+ <properties orientation="0" winrt_org="GiderosMobile" logicalHeight="480" fps="60" exportMode="0" windowWidth="0" mouseTouchOrder="0" scaleMode="0" autorotation="0" encryptAssets="0" winrt_package="com.yourdomain.yourapp" osx_bundle="com.yourdomain." mouseToTouch="1" html5_crash="" vsync="0" ios_bundle="com.yourdomain." html5_fbload="100" osx_domain="giderosmobile.com" app_icon="" osx_org="GiderosMobile" packageName="com.yourdomain.yourapp" backgroundColor="#ffffff" win_org="GiderosMobile" html5_wasm="0" version="1.0" tv_icon="" splash_v_image="" win_domain="giderosmobile.com" version_code="1" splash_h_image="" touchToMouse="1" html5_pack="0" android_template="0" html5_symbols="0" osx_installerId="" osx_signingId="" build_number="1" logicalWidth="320" html5_fbinstant="0" splashScaleMode="0" html5_host="" iosDevice="0" osx_category="5" windowHeight="0" html5_mem="256" retinaDisplay="0" architecture="0" encryptCode="0" disableSplash="0" app_name="">
+  <imageScales/>
+  <plugins>
+   <plugin name="JSON" enabled="1"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <folder name="colyseus">
+  <folder name="messagepack">
+   <file name="assets/colyseus/messagepack/MessagePack.lua"/>
+  </folder>
+  <folder name="serialization">
+   <folder name="fossil_delta">
+    <file name="assets/colyseus/serialization/fossil_delta/fossil_delta.lua"/>
+   </folder>
+   <folder name="schema">
+    <file name="assets/colyseus/serialization/schema/schema.lua"/>
+   </folder>
+   <file name="assets/colyseus/serialization/bit.lua"/>
+   <file name="assets/colyseus/serialization/fossil_delta.lua"/>
+   <file name="assets/colyseus/serialization/json.lua"/>
+   <file name="assets/colyseus/serialization/schema.lua"/>
+  </folder>
+  <folder name="state_listener">
+   <file name="assets/colyseus/state_listener/compare.lua"/>
+   <file name="assets/colyseus/state_listener/state_container.lua"/>
+  </folder>
+  <file name="assets/colyseus/auth.lua"/>
+  <file name="assets/colyseus/client.lua"/>
+  <file name="assets/colyseus/connection.lua"/>
+  <file name="assets/colyseus/eventemitter.lua"/>
+  <file name="assets/colyseus/events.lua"/>
+  <file name="assets/colyseus/protocol.lua"/>
+  <file name="assets/colyseus/push.lua"/>
+  <file name="assets/colyseus/room.lua"/>
+  <file name="assets/colyseus/serialization.lua"/>
+  <file name="assets/colyseus/storage.lua"/>
+  <file name="assets/colyseus/utils.lua"/>
+ </folder>
+ <folder name="images">
+  <file name="assets/images/jdbc_games.png"/>
+ </folder>
+ <folder name="websocket">
+  <file name="assets/websocket/client_async.lua"/>
+  <file name="assets/websocket/coxpcall.lua"/>
+  <file name="assets/websocket/frame.lua"/>
+  <file name="assets/websocket/handshake.lua"/>
+  <file name="assets/websocket/sync.lua"/>
+  <file name="assets/websocket/tools.lua"/>
+ </folder>
+ <file name="assets/dataSaver.lua"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/socket.lua"/>
+</project>
